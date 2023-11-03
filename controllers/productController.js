@@ -65,6 +65,7 @@ export const createProductController = async (req, res) => {
 export const getProductController = async (req, res) => {
   try {
     const products = await productModel.find({}).populate("category")
+    console.log(products)
       // // .select("-photo")
       // .limit(12)
       // .sort({ createdAt: -1 });
