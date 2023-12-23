@@ -1,2 +1,2 @@
-# ecommerce-app-2023
+# ecommerce-app-mern
 
